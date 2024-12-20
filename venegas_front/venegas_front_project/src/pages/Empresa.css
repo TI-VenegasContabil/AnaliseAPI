@@ -1,0 +1,128 @@
+#main-empresa{
+    padding-top: 100px;
+    
+}
+
+.search-area{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-area h2{
+    display: flex;
+    text-align: center;
+    color: #E3E3E3;
+    margin-bottom: 30px;
+}
+
+.search-area form{
+    display: flex;
+
+}
+
+.search-area input{
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: #2F333A;
+    opacity: 0.5;
+    color: #E3E3E3;
+    font-size: large
+    
+    
+}
+
+.search-area button{
+
+    background-color: #2F333A;
+    border: 2px solid #2F333A;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 0.3rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-area button:hover{
+    background-color: #029effa4;
+}
+
+.lupa-img{
+    width: 50px;
+    height: 50px;
+    color: #E3E3E3;   
+    
+}
+
+.empresas-show-area{
+    padding-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.empresas-show-area h2{
+    display: flex;
+    text-align: center;
+    color: #E3E3E3;
+    margin-bottom: 30px;
+
+}
+
+.table-empresa{
+    list-style: none;
+}
+
+.list-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.list-header div{
+    
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #029effc1;
+    border-color: black;
+    border: 1px solid #ccc; /* Borda fina para cada célula */
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+    place-content: center;
+    width: 110px;
+    height: 30px;
+}
+
+
+.box-empresa {
+
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2px;
+    border: 1px solid #cccccc6a; /* Borda fina para cada célula */
+    background-color: #2F333A;
+
+}
+
+.cell{
+    padding-right: 10px;
+    padding: 10px;
+    color: #E3E3E3;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+
+}

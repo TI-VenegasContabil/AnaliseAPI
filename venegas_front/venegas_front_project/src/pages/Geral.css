@@ -1,0 +1,126 @@
+.main-geral{
+    padding-top: 100px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1{
+    color:#E3E3E3 ;
+}
+
+
+
+.last-month-infos{
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding-top: 50px;
+}
+
+.last-month-infos h2{
+    color: #E3E3E3;
+}
+
+.graficos-iniciais{
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.relacao-custo-ganho{
+    width: 40%;
+    height: 400px;
+    background-color: #2F333A;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+}
+
+.relacao-custo-departamentos{
+
+    width: 40%;
+    height: 400px;
+    background-color: #2F333A;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+
+}
+
+
+.info-r-tempo {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+
+    width: 100%;
+    height: 100%;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-block{
+
+    width: 40%;
+    height: 400px;
+    background-color: #2F333A;
+    justify-content:space-around;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+
+.info-text{
+    color: #E3E3E3;
+    font-size: 21px;
+
+}
+
+
+.acompanhamento-infos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.acompanhamento-infos h2{
+    color: #E3E3E3;
+
+}
+
+.box-periodo{
+    width: 80%;
+    height: 400px;
+    background-color: #2F333A;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    margin-top: 30px;
+}

@@ -1,0 +1,28 @@
+#search-func-main{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-func-main h1{
+
+    color: #E3E3E3;
+
+}
+
+.grafic-area{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#dist-time {
+    color: #E3E3E3;
+    font-size: 21px;
+    margin-bottom: 20px;
+}

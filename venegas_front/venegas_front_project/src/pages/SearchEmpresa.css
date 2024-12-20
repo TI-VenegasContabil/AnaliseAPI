@@ -1,0 +1,90 @@
+#search-empresa-main{
+    padding-top: 100px;
+}
+
+
+.empresa-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.empresa-area h1{
+    color: #E3E3E3;
+}
+
+
+.empresa-data{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.nome-empresa{
+    color: #E3E3E3;
+    padding-top: 50px;
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+
+.general-data{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.general-data div {
+    padding-right: 30px;
+    padding-left: 30px ;
+    font-size: 21px;
+
+}
+
+.faturamento-medio{
+    color: #E3E3E3;
+}
+
+.grafic-data{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.grafic-data h2{
+    margin-bottom: 10px;
+    margin-top: 60px;
+    color: #E3E3E3;
+}
+
+.grafic-data div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.grafic{
+    width: 80%;
+    height: 400px;
+    background-color: #2F333A;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+}
+
+
+
+h2{
+    margin-top: 30px;
+}
+
